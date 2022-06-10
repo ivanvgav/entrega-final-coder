@@ -1,0 +1,159 @@
+/* CSS general */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400&family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+  font-size: 62,5% ;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+p{
+    font-family: 'Jost', sans-serif;
+}
+
+nav{
+    background-color: #C4DDFF;
+    position: fixed;
+    top: auto;
+    width: 100%;
+    display: inline;
+}
+
+header{
+    padding: 0% 10% 1% 10%;
+    padding-top: 220px;
+}
+
+body{
+    background-color: #7FB5FF;
+}
+
+footer{
+    background-color: #FEE2C5;
+    padding: 1.2rem;
+    width: 100%;
+}
+
+#map{
+    width: 50%;
+}
+
+#info{
+    width: 50%;
+    font-size: 0.5rem;
+}
+
+/* Index */
+
+#door{
+    width: 33%;
+}
+
+#presentacion{
+    margin: 2% 2% 2% 40%;
+}
+
+#history{
+    margin: 2% 2% 2% 40%;
+}
+
+
+/* Contacto */
+
+form{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+legend{
+    font-family: 'Jost', sans-serif;
+}
+
+/*Actividades*/
+
+#actividades{
+    padding-top: 220px;
+}
+
+figcaption{
+    font-family: 'Jost', sans-serif;
+}
+
+.cursos{
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.seminario{
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+}
+
+#nubiola{
+    width: 45%;
+    object-fit: contain;
+}
+
+#hynes{
+    width: 45%;
+    object-fit: contain;
+}
+
+.confs{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+#victor{
+    width: 30%;
+    object-fit: contain;
+}
+
+#carman{
+    width: 30%;
+    object-fit: contain;
+}
+
+#rojo{
+    width: 30%;
+    object-fit: contain;
+}
+
+/* Revista */
+
+.numeros{
+    display: inline;
+    width: 33%;
+    height: 33%;
+}
+
+#trece{
+    width: 30%;
+}
+
+#doce{
+    width: 30%;
+}
+
+#diez{
+    width: 30%;
+}
+
+/*Miembros*/
+
+#sergio{
+    width: 25%;
+}
