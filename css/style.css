@@ -26,10 +26,13 @@ nav{
     top: auto;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: space-around;
+    align-items: center;
     /*display: inline;*/
     grid-area: nav;
+    animation-name: navAlpha;
+    animation-duration: 3s;
 }
 
 header{
@@ -74,6 +77,8 @@ main{
 #door{
     width: 33%;
     grid-area: door;
+    animation-name: danceImg;
+    animation-duration: 2s;
 }
 
 /*
@@ -249,4 +254,17 @@ main{
         justify-content: center;
     }
 
+}
+
+/*Transiciones, Animaciones*/
+
+@keyframes navAlpha{
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
+@keyframes danceImg {
+    0%{width: 200px}
+    50%{width: 10%;}
+    100%{width: 33%}
 }
