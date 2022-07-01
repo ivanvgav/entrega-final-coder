@@ -21,8 +21,7 @@ p{
 }
 
 nav{
-    background-color: #C4DDFF;
-    position: fixed;
+    /*position: fixed;*/
     top: auto;
     width: 100%;
     display: flex;
@@ -31,13 +30,21 @@ nav{
     align-items: center;
     /*display: inline;*/
     grid-area: nav;
-    animation-name: navAlpha;
-    animation-duration: 3s;
+    /*animation-name: navAlpha;
+    animation-duration: 3s;*/
+}
+
+.navColor{
+    background-color: #C4DDFF;
+}
+
+nav ul li a{
+    font-family: 'Jost', sans-serif;
 }
 
 header{
     /*padding: 0% 10% 1% 10%;*/
-    padding-top: 220px;
+    /*padding-top: 220px;*/
     display: flex;
     justify-content: space-around;
     grid-area: header
@@ -77,8 +84,8 @@ main{
 #door{
     width: 33%;
     grid-area: door;
-    animation-name: danceImg;
-    animation-duration: 2s;
+    /*animation-name: danceImg;
+    animation-duration: 2s;*/
 }
 
 /*
@@ -104,10 +111,6 @@ legend{
 
 /*Actividades*/
 
-#actividades{
-    padding-top: 220px;
-}
-
 figcaption{
     font-family: 'Jost', sans-serif;
 }
@@ -124,7 +127,7 @@ figcaption{
     object-fit: cover;
 }
 
-#nubiola{
+/*#nubiola{
     width: 45%;
     object-fit: contain;
 }
@@ -132,7 +135,7 @@ figcaption{
 #hynes{
     width: 45%;
     object-fit: contain;
-}
+}*/
 
 .confs{
     width: 100%;
@@ -140,7 +143,7 @@ figcaption{
     margin-top: 0.5rem;
 }
 
-
+/*
 #victor{
     width: 30%;
     object-fit: contain;
@@ -155,6 +158,7 @@ figcaption{
     width: 30%;
     object-fit: contain;
 }
+*/
 
 /* Revista */
 
@@ -257,7 +261,7 @@ main{
 }
 
 /*Transiciones, Animaciones*/
-
+/*
 @keyframes navAlpha{
     from{opacity: 0}
     to{opacity: 1}
@@ -268,3 +272,4 @@ main{
     50%{width: 10%;}
     100%{width: 33%}
 }
+*/
