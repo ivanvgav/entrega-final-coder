@@ -70,6 +70,30 @@ main{
     align-items: center;
 }
 
+.a-sub-animation{
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+  
+.a-sub-animation:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.a-sub-animation:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 #map{
     width: 20%;
 }
@@ -87,16 +111,6 @@ main{
     /*animation-name: danceImg;
     animation-duration: 2s;*/
 }
-
-/*
-#presentacion{
-    margin: 2% 2% 2% 40%;
-}
-
-#history{
-    margin: 2% 2% 2% 40%;
-}
-*/
 
 /* Contacto */
 
@@ -127,46 +141,15 @@ figcaption{
     object-fit: cover;
 }
 
-/*#nubiola{
-    width: 45%;
-    object-fit: contain;
-}
-
-#hynes{
-    width: 45%;
-    object-fit: contain;
-}*/
-
 .confs{
     width: 100%;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
 
-/*
-#victor{
-    width: 30%;
-    object-fit: contain;
-}
-
-#carman{
-    width: 30%;
-    object-fit: contain;
-}
-
-#rojo{
-    width: 30%;
-    object-fit: contain;
-}
-*/
 
 /* Revista */
 
-/*.numeros{
-    display: inline;
-    width: 33%;
-    height: 33%;
-}*/
 
 #trece{
     width: 30%;
@@ -259,17 +242,3 @@ main{
     }
 
 }
-
-/*Transiciones, Animaciones*/
-/*
-@keyframes navAlpha{
-    from{opacity: 0}
-    to{opacity: 1}
-}
-
-@keyframes danceImg {
-    0%{width: 200px}
-    50%{width: 10%;}
-    100%{width: 33%}
-}
-*/

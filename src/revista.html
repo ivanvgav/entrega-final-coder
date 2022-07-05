@@ -4,38 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" type="image/x-icon" href="../img/favicon.png">
     <title>Instituto de Epistemología - UNT</title>
 </head>
 <body>
-   <nav>
-        <div class="bar">
-            <span><a href="../index.html"><img src="../img/iep-logo.png" alt="Logo del instituto de epistemología"></a></span>
-            <span><a href="actividades.html">Actividades</a></span>
-            <span><a href="revista.html">Revista</a></span>
-            <span><a href="miembros.html">Miembros</a></span>
-            <span><a href="contacto.html">Contacto</a></span>
-        </div>
-   </nav> 
+  <!--Inicio navbar-->
+   <nav class="navbar navbar-expand-lg navColor sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img class="w-auto" src="../img/iep-logo.png" alt="Logo Instituto"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link a-sub-animation" href="../src/actividades.html">Actividades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a-sub-animation" href="../src/revista.html">Revista</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a-sub-animation" href="../src/miembros.html">Miembros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a-sub-animation" href="../src/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--fin navbar-->
+
 
    <header>
         <h1>Estudios de Epistemología - Revista del Instituto de Epistemología</h1>
    </header>
 
    <main class="numeros">
-        <figure id="trece">
-            <img src="../img/revista/tapa-XIII.jpg" alt="Revista número 13">
-            <figcaption>Estudios de Epistemología XIII</figcaption>
-        </figure>
-        <figure id="doce">
-            <img src="../img/revista/tapa-xi_xii.jpg" alt="Revista número 11-12">
-            <figcaption>Estudios de Epistemología XI-XII</figcaption>
-        </figure>
-        <figure id="diez">
-            <img src="../img/revista/tapa-x.jpg" alt="Revista número 10">
-            <figcaption>Estudios de Epistemología X</figcaption>
-        </figure>
+
+        <!--Inicio carta revista-->
+        <div class="card mb-3 mx-4" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/revista/tapa-XIII.jpg" class="img-fluid rounded-start" alt="Revista N° 13">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <strong class="card-title"><a class="a-sub-animation" href="https://drive.google.com/file/d/1fe8NZ7ocJtz6zIQu_NWEAtiTvVfhVUMR/view?usp=sharing">Estudios de Epistemología XIII</a></strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--Fin carta revista-->
+
+        <!--Inicio carta revista-->
+        <div class="card mb-3 mx-4 style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/revista/tapa-xi_xii.jpg" class="img-fluid rounded-start" alt="Revista N° 11-12">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <strong class="card-title"><a class="a-sub-animation" href="https://drive.google.com/file/d/1OYI8tNeQbH0N7RFYsTswYEAbCfpSNrSQ/view?usp=sharing">Estudios de Epistemología XI - XII</a></strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--Fin carta revista-->
+
+        <!--Inicio carta revista-->
+        <div class="card mb-3 mx-4" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../img/revista/tapa-x.jpg" class="img-fluid rounded-start" alt="Revista N° 10">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <strong class="card-title"><a class="a-sub-animation" href="https://drive.google.com/file/d/1yxUNvc58_PVaYnbhdrjRRAxCq6sKWWQr/view?usp=sharing"> Estudios de Epistemología X</a></strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--Fin carta revista-->
+
    </main>
 
    <footer>
@@ -51,5 +104,6 @@
         </div>
    </footer>
 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
