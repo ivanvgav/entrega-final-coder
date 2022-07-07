@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: $htmlSize;
+}
+
+body{
+    background-color: $mainColor;
+}
+
+h1,
+h2,
+h3{
+    font-family: $titleFont;
+}
+
+p{
+    font-family: $mainFont;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    grid-area: header
+}
+
+.a-sub-animation{
+    display: inline-block;
+    position: relative;
+    color: $aColor;
+    &:after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $aColor;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+        &:hover:after{
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+    }
+}
+
+#door{
+    width: 33%;
+    grid-area: door;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    figcaption{
+        flex-wrap: wrap;
+        font-family: $mainFont;
+    }
+}
+
+.cursos{
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.seminario{
+    width: 100%;
+    object-fit: cover;
+}
+
+.confs{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#sergio{
+    width: 200px;
+}
+
+#trece{
+    width: 30%;
+}
+
+#doce{
+    width: 30%;
+}
+
+#diez{
+    width: 30%;
+}

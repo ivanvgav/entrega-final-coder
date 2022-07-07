@@ -108,8 +108,6 @@ main{
 #door{
     width: 33%;
     grid-area: door;
-    /*animation-name: danceImg;
-    animation-duration: 2s;*/
 }
 
 /* Contacto */

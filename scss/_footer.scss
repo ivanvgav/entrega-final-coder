@@ -1,0 +1,16 @@
+footer{
+    background-color: $footerColor;
+    padding: 1.2rem;
+    width: 100%;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+}
+
+#info{
+    font-size: $textSm;
+}
+
+#map{
+    width: 20%;
+}
