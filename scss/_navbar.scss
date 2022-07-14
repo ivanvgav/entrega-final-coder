@@ -1,8 +1,7 @@
 nav{
     top: auto;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
+    @include d-flex(space-around)
     align-content: space-around;
     align-items: center;
     grid-area: nav;
@@ -16,5 +15,5 @@ nav{
 }
 
 .navColor{
-    background-color: $navColor;
+    background-color: map-get($map:$paleta, $key: 'navColor');
 }

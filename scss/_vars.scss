@@ -1,6 +1,20 @@
 //Color variables
 
-$mainColor: #7FB5FF;
-$navColor: #C4DDFF;
-$footerColor: #FEE2C5;
-$aColor: #0087ca;
+// $mainColor: #7FB5FF;
+// $navColor: #C4DDFF;
+// $footerColor: #FEE2C5;
+// $aColor: #0087ca;
+
+$paleta:(
+    'mainColor': #7FB5FF, 
+    'navColor': #C4DDFF,
+    'footerColor': #FEE2C5,
+    'aColor': #0087ca,
+    );
+
+// Mixin
+
+@mixin d-flex($justify){
+    display: flex;
+    justify-content: $justify;
+}
