@@ -86,6 +86,21 @@ figure {
 #diez {
   width: 30%; }
 
+#reset {
+  font-family: "Jost", sans-serif; }
+
+#id {
+  font-family: "Jost", sans-serif; }
+
+legend {
+  font-family: "IBM Plex Serif", serif; }
+
+label {
+  font-family: "Jost", sans-serif; }
+
+input {
+  font-family: "Jost", sans-serif; }
+
 nav {
   top: auto;
   width: 100%;
