@@ -56,7 +56,7 @@
           <label for="surname">Apellido</label>
           <!--Etiqueta para el tipo de dato-->
           <input type="text" id="surname" placeholder="Apellido">
-          <br>
+          
           <label for="email">Email</label>
           <input type="email" id="email" placeholder="ejemplo@mail.com">
         </fieldset>
@@ -65,10 +65,10 @@
           <label for="consulta">Consulta</label>
           <input type="checkbox" id="consulta" value="consulta">
           <!--El checkbox pueden tener cuantos se necesiten. Son para elegir en cantidad-->
-          <br>
+          
           <label for="invitacion">Invitación</label>
           <input type="checkbox" id="invitacion" value="invitacion">
-          <br>
+          
           <label for="pedido">Pedido</label>
           <input type="checkbox" id="pedido" value="pedido">
         </fieldset>
@@ -76,14 +76,14 @@
           <legend>Título</legend>
           <label for="grado">Grado</label>
           <input type="radio" id="grado" name="titulo" value="grado">
-          <br>
+          
           <!--los name tienen que coincidir para que elijan uno O el otro, no las dos-->
           <label for="posgrado">Posgrado</label>
           <input type="radio" name="titulo" id="posgrado" value="posgrado">
-          <br>
+          
           <label for="emerito">Emérito</label>
           <input type="radio" name="titulo" id="emerito" value="emerito">
-          <br>
+          
           <label for="country">Lugar de procedencia</label>
           <select name="country" id="country">
             <option value="españa">España</option>
@@ -96,13 +96,13 @@
         <fieldset>
           <legend>Mensaje</legend>
           <label for="mensaje">Mensaje</label>
-          <br>
+          
           <textarea name="" id="mensaje" cols="42" rows="20"></textarea>
         </fieldset>
-        <br>
-        <input type="reset" value="Cancelar">
+        
+        <input type="reset" value="Cancelar" id="reset">
         <!--Botones de reseteo y de envio-->
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" id="submit">
         </fieldset>
       </form>
    </main>
