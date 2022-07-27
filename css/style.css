@@ -54,15 +54,6 @@ body{
     background-color: #7FB5FF;
 }
 
-footer{
-    background-color: #FEE2C5;
-    padding: 1.2rem;
-    width: 100%;
-    grid-area: footer;
-    display: flex;
-    justify-content: space-between;
-}
-
 main{
     display: flex;
     flex-direction: column;
@@ -92,10 +83,6 @@ main{
 .a-sub-animation:hover:after{
     transform: scaleX(1);
     transform-origin: bottom left;
-}
-
-#map{
-    width: 20%;
 }
 
 #info{
