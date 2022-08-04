@@ -169,6 +169,13 @@ figcaption{
     width: 200px;
 }
 
+/* Error ¨*/
+
+.nogrid{
+    display: inline;
+}
+
+
 /*Responsive*/
 
 main{

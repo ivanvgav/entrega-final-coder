@@ -108,6 +108,12 @@ input {
   margin-left: 10%;
   margin-right: 10%; }
 
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
 nav {
   top: auto;
   width: 100%;
