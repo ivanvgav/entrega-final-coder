@@ -233,4 +233,7 @@ main{
         justify-content: center;
     }
 
+    #carusel{
+        flex-wrap: nowrap;
+    }
 }
