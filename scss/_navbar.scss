@@ -1,7 +1,7 @@
 nav{
     top: auto;
     width: 100%;
-    @include d-flex(space-around)
+    @include d-flex(space-around);
     align-content: space-around;
     align-items: center;
     grid-area: nav;
